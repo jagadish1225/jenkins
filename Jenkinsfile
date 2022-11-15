@@ -44,7 +44,7 @@ pipeline{
                 echo 'DEV'
             }
         }
-        tage ('PROD'){
+        stage ('PROD'){
              when {
             
                 environment name: 'ENV', value: 'PROD'
