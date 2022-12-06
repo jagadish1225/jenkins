@@ -5,11 +5,13 @@ pipeline {
         stage('stage 1') {
             steps {
                 echo 'Hello jack'
+                sh 'date'
             }
         }
           stage('stage 2') {
             steps {
                 echo 'devops engineer'
+                sh 'free -h'
             }
         }
     }
