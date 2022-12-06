@@ -10,7 +10,7 @@ pipelineJob('CI-Pipelines/cart') {
       'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
         'userRemoteConfigs' {
           'hudson.plugins.git.UserRemoteConfig' {
-            'url'('https://github.com/jagadish1225/cart.git')
+            'url'('https://github.com/jagadish1225/cart-new.git')
           }
         }
         'branches' {
